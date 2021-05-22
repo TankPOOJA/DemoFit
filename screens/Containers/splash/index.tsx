@@ -9,7 +9,10 @@ export const Splash = () => {
         backgroundColor="transparent"
         translucent={true}
       />
-      <Text style={styles.SplashScreen_ChildView}>Fitter, Healthier, Happier</Text>
+      <Text style={styles.SplashScreen_ChildView}>
+        Fitter, Healthier, Happier
+      </Text>
+     
     </View>
   );
 };
@@ -26,9 +29,9 @@ const styles = StyleSheet.create({
   SplashScreen_ChildView: {
     justifyContent: 'center',
     alignItems: 'center',
-    color:"#203354",
-    fontSize:25,
-    alignContent:'center',
-    alignSelf:'center'
+    color: '#203354',
+    fontSize: 25,
+    alignContent: 'center',
+    alignSelf: 'center',
   },
 });
